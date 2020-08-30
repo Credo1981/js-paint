@@ -1,6 +1,8 @@
-// Import stylesheets
-import './style.css';
+console.log('1');
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+var 
+  canv = document.querySelector('canvas'),
+  ctx  = canv.getContext('2d');
+
+canv.width = window.innerWidth;
+canv.height = window.innerHeight;
