@@ -6,3 +6,7 @@ var
 
 canv.width = window.innerWidth;
 canv.height = window.innerHeight;
+
+// Code
+ctx.fillStyle = 'magenta';
+ctx.fillRect(50, 50, 300, 200);
